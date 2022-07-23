@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,39 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="display">
+            <div class="display1" data-last-operation></div>
+            <div class="displays" data-current-operation></div>
+        </div>
+        <div class="clear">
+            <button data-clear class="clear1">CLEAR</button>
+            <button data-delete class="delete">DELETE</button>
+        </div>
+        <div class="btns-container">
+            <button class="btns" data-number>7</button>
+            <button class="btns" data-number>8</button>
+            <button class="btns" data-number>9</button>
+            <button class="btns" data-operator>÷</button>
+            <button class="btns" data-number>4</button>
+            <button class="btns" data-number>5</button>
+            <button class="btns" data-number>6</button>
+            <button class="btns" data-operator>×</button>
+            <button class="btns" data-number>1</button>
+            <button class="btns" data-number>2</button>
+            <button class="btns" data-number>3</button>
+            <button class="btns" data-operator>-</button>
+            <button class="btns" data-number>0</button>
+            <button class="btns" data-number>.</button>
+            <button class="btns" data-operator>+</button>
+            <button class="btns" data-equals id="equals">=</button>
+
+        </div>
+    </div>
+
     <script src="app.js"></script>
 </body>
+
 </html>
