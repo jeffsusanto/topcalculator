@@ -1,10 +1,12 @@
 html, body{
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     background-color: #F5F0BB;
     font-family: 'Gothic-Rounded', sans-serif;
+    text-decoration: none;
 }
 
 .container{
@@ -17,6 +19,7 @@ html, body{
     border-radius: 20px;
     flex-direction: column;
     border: 5px solid #90C8AC;
+    box-shadow: 5px 5px rgb(12, 158, 75);
 }
 
 .display{
@@ -31,11 +34,13 @@ html, body{
     align-items: flex-end;
     padding: 5px;
     font-size: 45px;
+    box-shadow: 3px 3px rgb(12, 158, 75);
     color: #20ae67;
 }
 
 .displays{
     display: flex;
+    
 }
 
 .display1{
@@ -44,6 +49,7 @@ html, body{
     align-items: flex-start;
     font-size: 20px;
     font-weight: lighter;
+    
 }
 
 .clear{
@@ -65,6 +71,7 @@ html, body{
     height: 40px;
     font-size: 20px;
     color: #ffffffb7;
+    box-shadow: 3px 3px rgb(12, 158, 75);
 }
 
 .btns{
@@ -75,6 +82,7 @@ html, body{
     background-color: #90C8AC;
     font-size: 30px;
     color: #ffffffa2;
+    box-shadow: 3px 3px rgb(12, 158, 75);
 }
 .btns-container{
     display: flex;
@@ -82,4 +90,25 @@ html, body{
     justify-content: space-evenly;
     margin: 0 10px 0 10px;
     gap: 5px;
+}
+
+.footer, .footer a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px 0px 0px 0px;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.footer p{
+    
+    margin: 0;
+    color: #20ae67;
+    font-size: 20px;
+}
+
+.footer img{
+    width: 20px;
+    height: 20px;
 }
